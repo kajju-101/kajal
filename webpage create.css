@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#div {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: linear-gradient(orange, white, orange, white);
+}
+
+#center {
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    background-image: url(hero_iphone_family__be5jkzxszb1e_mediumtall.jpg);
+    background-size: cover;
+}
+
+#center h1 {
+    font-size: 100px;
+}
+
+#center h5 {
+    font-size: 40px;
+}
+
+#link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+}
+
+#link button {
+    background-color: blue;
+    color: aliceblue;
+    padding: 13px 20px;
+    border-radius: 60px;
+    font-size: 20px;
+}
