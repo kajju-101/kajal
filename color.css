@@ -1,0 +1,82 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+#div h1 {
+    background: linear-gradient(orange, white, green);
+    font-size: 100px;
+    margin-top: 0;
+    color: white;
+}
+
+#div h2 {
+    font-size: 100px;
+    color: transparent;
+    background-image: url(photo-1597026405082-eda9beae7513.avif);
+    background-clip: text;
+    background-size: cover;
+    /* isake vagah se image text per laga hai and text transperent karne per show kar rahahai*/
+}
+
+#div h3 {
+    font-size: 100px;
+    color: transparent;
+    background: linear-gradient(orange, blue, pink);
+    background-clip: text;
+}
+
+#div h4 {
+    font-size: 100px;
+    color: transparent;
+    background-image: url(XPFZ.gif);
+    background-clip: text;
+    background-size: cover;
+}
+
+#div h5 {
+    font-size: 100px;
+    color: white;
+    background-image: url(XPFZ.gif);
+    background-size: cover;
+}
+
+#div h6 {
+    font-size: 100px;
+    color: transparent;
+    text-align: center;
+    border: 3px solid black;
+    -webkit-text-stroke: 2px black;
+}
+
+#parent {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow: auto;
+}
+
+#parent::-webkit-scrollbar {
+    background-color: black;
+}
+
+#parent::-webkit-scrollbar-thumb {
+    background-color: skyblue;
+}
+
+#child {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#child img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}

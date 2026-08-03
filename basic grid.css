@@ -1,0 +1,37 @@
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            background-color: skyblue;
+        }
+        
+        #perent {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: grid;
+            /* grid ka use dono asix per kam karne ke liye hota hai x and y */
+            grid-template-columns: 20% 50% 10% 20%;
+            grid-template-rows: 5% 10% 50% 30%;
+        }
+        
+        #box {
+            border: 5px solid black;
+        }
+        
+        #box:nth-child(1n) {
+            background-color: crimson;
+        }
+        
+        #box:nth-child(2n) {
+            background-color: antiquewhite;
+        }
+        
+        #box:nth-child(3n) {
+            background-color: aquamarine;
+        }
+        
+        #box:nth-child(4n) {
+            background-color: green;
+        }
